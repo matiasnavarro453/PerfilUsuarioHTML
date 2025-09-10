@@ -3,9 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PerfilUsarioMati</title>
+ <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+    <header>
+        <h2>Mi Perfil</h2>
+    </header>
+
+<img src="Foto.jpg" alt= "Foto de Perfil" width = "150" style="width:150px; height:150px; border-radius:50%; object-fit:cover;
+display: block; margin: auto;">
+
+<footer>
+<p>Matias Navarro</p>
+</footer>
+
+<article>
+<h2>Biografía</h2>
+<p>
+Soy estudiante de ingenieria en sistemas que esta aprendiendo acerca del desarrollo web y
+estoy interesado por aprender mas sobre este tema.
+</p>
+</article>
+
+<section>
+<h2 style="text-align:center;">Actualizar Perfil</h2>
+<form>
+<div>
+<label for="nombre">Nombre:</label>
+<input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+</div>
+<div>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="Ingrese su email">
+</div>
+<div>
+<label for="bio">Biografía:</label>
+<textarea id="bio" name="bio" rows="4" placeholder="Escriba una breve biografía..."></textarea>
+</div>
+<button type="submit">Guardar Cambios</button>
+</form>
+</section>
+
+</article>
+    <h2 style="block; margin: auto;">Contacto </h2>
+    <table border="1" style="margin:auto; width:60%; text-align:left;">
+      <thead>
+        <tr>
+          <th>Tipo</th>
+          <th>Detalle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Email</td>
+          <td>matiasnavarro453@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Teléfono</td>
+          <td>+54 9 261 640 9831</td>
+        </tr>
+      </tbody>
+    </table>
+
 </body>
 </html>
